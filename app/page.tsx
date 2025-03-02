@@ -1,10 +1,11 @@
-import Image from "next/image";
+import { CategoryList } from "@/components/CategoryList";
+import Featured from "@/components/Featured";
 
 export default function Home() {
   return (
-    <div className="justify-center min-h-screen p-8 ">
-      Blog
-      
+    <div className="border flex ">
+      <Featured />
+      <CategoryList />
     </div>
   );
 }
